@@ -10,7 +10,9 @@ public class HelloController {
         return "Hello, ho hoang khoi dep trai vcl, kkkkkk";
     }
 
-
-
+    @GetMapping("/admin")
+    public String admin() {
+        return "Hello, ho hoang khoi dep trai vcl, kkkkkk";
+    }
 
 }
